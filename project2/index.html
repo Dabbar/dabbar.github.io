@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pictures_wrapper">
+    <div class="pictures">
+
+
+        <div class="pictures_text"><h1>
+            Showcase your work like a pro.
+        </h1>
+            <h4>
+                Contact me if you like my work
+            </h4></div>
+
+
+        <div class="pictures_items">
+
+
+            <div class="pictures_item" id="item1">
+
+                <div class="button_wrapper">
+                    <div class="button button1"></div>
+
+                </div>
+            </div>
+            <div class="pictures_item" id="item2">
+
+                <div class="button_wrapper">
+                    <div class="button button2"></div>
+
+                </div>
+            </div>
+            <div class="pictures_item" id="item3">
+
+                <div class="button_wrapper">
+                    <div class="button button3"></div>
+
+                </div>
+            </div>
+            <div class="pictures_item" id="item4">
+
+                <div class="button_wrapper">
+                    <div class="button button4"></div>
+
+                </div>
+            </div>
+            <div class="pictures_item" id="item5">
+
+                <div class="button_wrapper">
+                    <div class="button button5"></div>
+
+                </div>
+            </div>
+            <div class="pictures_item" id="item6">
+
+                <div class="button_wrapper">
+                    <div class="button button6"></div>
+
+                </div>
+            </div>
+            <div class="picture_full picture_full_1">
+                <img src="1full.jpg" alt="">
+                <div class="picture_full_button">
+
+                    <span>x</span>
+                </div>
+            </div>
+            <div class="picture_full picture_full_2">
+                <img src="2full.jpg" alt="">
+                <div class="picture_full_button">
+                    <span>x</span></div>
+            </div>
+            <div class="picture_full picture_full_3">
+                <img src="3full.jpg" alt="">
+                <div class="picture_full_button">
+                    <span>x</span>
+
+                </div>
+            </div>
+            <div class="picture_full picture_full_4">
+                <img src="4full.jpg" alt="">
+
+                <div class="picture_full_button">
+                    <span>x</span>
+                </div>
+            </div>
+            <div class="picture_full picture_full_5">
+                <img src="5full.jpg" alt="">
+                <div class="picture_full_button">
+                    <span>x</span>
+
+                </div>
+            </div>
+            <div class="picture_full picture_full_6">
+                <img src="6full.jpg" alt="">
+                <div class="picture_full_button">
+                    <span>x</span>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+
+    $(".button1").click(function () {
+        $(".picture_full_1").addClass("picture_full_selected");
+        $(".pictures_text").addClass("active");
+        $(".pictures_item").addClass("active");
+
+    });
+    $(".button2").click(function () {
+        $(".picture_full_2").addClass("picture_full_selected");
+        $(".pictures_text").addClass("active");
+        $(".pictures_item").addClass("active");
+
+    });
+
+    $(".button3").click(function () {
+        $(".picture_full_3").addClass("picture_full_selected");
+        $(".pictures_text").addClass("active");
+        $(".pictures_item").addClass("active");
+
+    });
+
+    $(".button4").click(function () {
+        $(".picture_full_4").addClass("picture_full_selected");
+        $(".pictures_text").addClass("active");
+        $(".pictures_item").addClass("active");
+
+    });
+
+    $(".button5").click(function () {
+        $(".picture_full_5").addClass("picture_full_selected");
+        $(".pictures_text").addClass("active");
+        $(".pictures_item").addClass("active");
+
+    });
+
+    $(".button6").click(function () {
+        $(".picture_full_6").addClass("picture_full_selected");
+        $(".pictures_text").addClass("active");
+        $(".pictures_item").addClass("active");
+
+    });
+
+    $(".picture_full_button").click(function () {
+        $(".picture_full_1").removeClass("picture_full_selected");
+        $(".pictures_text").removeClass("active");
+        $(".pictures_item").removeClass("active");
+
+    });
+
+    $(".picture_full_button").click(function () {
+        $(".picture_full_2").removeClass("picture_full_selected");
+        $(".pictures_text").removeClass("active");
+        $(".pictures_item").removeClass("active");
+
+    });
+    $(".picture_full_button").click(function () {
+        $(".picture_full_3").removeClass("picture_full_selected");
+        $(".pictures_text").removeClass("active");
+        $(".pictures_item").removeClass("active");
+
+    });
+    $(".picture_full_button").click(function () {
+        $(".picture_full_4").removeClass("picture_full_selected");
+        $(".pictures_text").removeClass("active");
+        $(".pictures_item").removeClass("active");
+
+    });
+
+    $(".picture_full_button").click(function () {
+        $(".picture_full_5").removeClass("picture_full_selected");
+        $(".pictures_text").removeClass("active");
+        $(".pictures_item").removeClass("active");
+
+    });
+
+    $(".picture_full_button").click(function () {
+        $(".picture_full_6").removeClass("picture_full_selected");
+        $(".pictures_text").removeClass("active");
+        $(".pictures_item").removeClass("active");
+
+    });
+
+
+</script>
+
+
+</body>
+</html>
