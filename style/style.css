@@ -6,7 +6,8 @@
 }
 
 body {
-    background: deepskyblue;
+    background: #009ace;
+
 }
 
 .header h1 {
@@ -66,8 +67,8 @@ img:hover {
     text-align: center;
     font-size: 23px;
     text-shadow: 2px 2px 2px grey;
-    background: linear-gradient(to bottom, #e8e115, #d77a17);
-    width: 250px;
+    background: linear-gradient(to bottom, #e8e115, #d75a34);
+    width: 270px;
     height: 110px;
     margin: 0 auto;
     border-radius: 5px;
