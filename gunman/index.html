@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Wild Gunman</title>
+</head>
+<body>
+
+<div class="start__back">
+    <div class="black__back">
+        <div class="time">
+            <h2>You: <span class="player__time">0.00</span></h2>
+            <h2>Gunman: <span class="gunman__time">0.50</span></h2>
+        </div>
+
+        <div class="reward">
+            <h2>$ <span class="dollars">0</span></h2>
+            <h2>REWARD</h2>
+        </div>
+
+        <div class="main__back">
+            <img src="images/g5Hat.png" alt="" class="hat">
+            <img src="images/logo.png" alt="" class="logo">
+            <div class="gunman"></div>
+            <h1 class="start__btn">Start Game</h1>
+            <span class="reset">Reset</span>
+            <div class="message fire"><p>FIRE !!!</p></div>
+            <div class="message won"><p>YOU WON !!!</p></div>
+            <div class="message lost"><p>YOU LOST !!!</p></div>
+            <div class="message foul"><p>FOUL !!!</p></div>
+            <div class="gameOver">Game Over</div>
+        </div>
+    </div>
+</div>
+
+<audio src="audio/intro.m4a" id="intro"></audio>
+<audio src="audio/fire.m4a" id="fire"></audio>
+<audio src="audio/wait.m4a" id="wait"></audio>
+<audio src="audio/win.m4a" id="win"></audio>
+<audio src="audio/death.m4a" id="death"></audio>
+<audio src="audio/foul.m4a" id="foul"></audio>
+<audio src="audio/shot.m4a" id="shot"></audio>
+<audio src="audio/shot-fall.m4a" id="shotFall"></audio>
+
+
+<script src="script/script.js"></script>
+</body>
+</html>
