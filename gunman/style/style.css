@@ -177,6 +177,11 @@
 
 }
 
+
+.images__container{
+    display: none;
+}
+
 audio {
     display: none;
 }
