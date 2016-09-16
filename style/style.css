@@ -23,7 +23,7 @@ body {
 
     margin: 60px auto;
     text-align: center;
-    border-bottom: 2px solid #25acde;
+    border-bottom: 2px solid #2689b3;
     padding-bottom: 40px;
     max-width: 990px;
     min-width: 300px;
@@ -101,7 +101,7 @@ img:hover {
     color: white;
     padding: 10px 0;
     margin-top: 50px;
-    border-top: 2px solid #25acde;
+    border-top: 2px solid #2689b3;
 
 }
 
