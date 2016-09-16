@@ -1,6 +1,6 @@
 (function () {
 
-
+    var credits = document.querySelector('.credits');
     var gunman = document.querySelector('.gunman');
     var playerTime = document.querySelector('.player__time');
     var back = document.querySelector('.main__back');
@@ -287,6 +287,7 @@
         reset();
 
 
+        credits.style.visibility = 'hidden';
         startBtn.style.visibility = 'hidden';
         logo.style.visibility = 'hidden';
         blackBack.style.visibility = 'visible';
