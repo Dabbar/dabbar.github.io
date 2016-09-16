@@ -80,14 +80,14 @@ img:hover {
 .contacts h4 {
     margin-bottom: 5px;
     padding-top: 30px;
-    color: black;
+    color: #f3f3f3;
     border-radius: 5px;
 
 }
 
 .contacts a {
     text-shadow: none;
-    color: #1778ee;
+    color: #000000;
 
 }
 
