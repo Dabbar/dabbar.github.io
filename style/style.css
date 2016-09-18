@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Lobster, cursive;
+    transition: all 0.5s ease-out;
 
 }
 
