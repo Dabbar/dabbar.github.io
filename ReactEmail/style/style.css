@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0 10px 20px;
+    background: lightblue;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+    border-bottom: 1px solid #2b4780;
+    text-transform: uppercase;
+
+}
+
+.wrapper {
+    border: 2px solid #2b4780;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #2b4780;
+}
+
+.reactContainer {
+
+    position: relative;
+
+}
+
+.navigationContainer {
+    border-right: 2px solid #2b4780;
+    width: 250px;
+    height: auto;
+    left: 0;
+    top: 0;
+
+}
+
+.mailNavigation {
+
+    margin: 0;
+    padding: 10px;
+    border-bottom: solid 1px #448cff;
+
+}
+
+.mailNavigation:hover {
+    background-color: lightblue;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+
+}
+
+.mailListItem {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.mailContainer {
+
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+
+}
+
+.active {
+    background-color: lightblue;
+
+}
+
+.mailContainer.active {
+    display: block;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    bottom: 0;
+    width: calc(100% - 253px);
+    height: 100%;
+
+}
+
+.mailHeader {
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.mailBody {
+    position: relative;
+    bottom: 0;
+    margin-top: 40px;
+
+}
+
+entity {
+    margin-right: 15px;
+    position: relative;
+    border-bottom:  1px solid;
+    display: inline-block;
+}
+
+entity:after {
+    font-family: FontAwesome;
+    right: -15px;
+    position: absolute;
+    top: 3px;
+    font-size: 12px;
+}
+
+[type="person"] {
+
+    border-color: blue;
+
+}
+
+[type="person"]:after {
+    color: blue;
+    content: "\f007";
+}
+
+[type="place"] {
+
+    border-color: red;
+}
+
+[type="place"]:after {
+    color: red;
+    content: "\f0ac";
+
+}
+
+[type="time"] {
+
+    border-color: brown;
+
+}
+
+[type="time"]:after {
+    color: brown;
+    content: "\f073";
+}
+
+[type="phone"] {
+
+    border-color: purple;
+
+}
+
+[type="phone"]:after {
+    color: purple;
+    content: "\f098";
+}
+
+[type="money"] {
+
+    border-color: green;
+
+}
+
+[type="money"]:after {
+    color: green;
+    content: "\f0d6";
+}
+
+[type="organisation"] {
+
+    border-color: darkgreen;
+
+}
+
+[type="organisation"]:after {
+    color: darkgreen;
+    content: "\f1ad";
+}
+
+
+
+
+
+
+
+
+
