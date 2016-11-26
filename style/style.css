@@ -80,7 +80,7 @@ img:hover {
 }
 
 .contacts a {
-  transition: 0.5s ease;
+  transition: font-size 0.5s ease;
 
   text-shadow: none;
   color: #000000;
