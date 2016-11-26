@@ -3,6 +3,8 @@
   padding: 0;
   font-family: "Trebuchet MS", Arial, sans-serif;
 
+  box-sizing: border-box;
+
 }
 
 .header_wrapper {
@@ -13,7 +15,7 @@
   display: inline-block;
 
   position: relative;
-  width: 960px;
+  min-width: 960px;
   height: 60px;
   text-align: center;
   margin-top: 10px;
@@ -46,6 +48,7 @@
   padding: 20px 0;
   text-align: left;
 
+  white-space: nowrap;
 }
 
 .header_nav.fixed {
@@ -68,7 +71,7 @@
 
 .header_nav.fixed a:hover {
   border: none;
-  color: crimson;
+  color: #ff1446;
 }
 
 .header_nav ul {
@@ -109,12 +112,13 @@
   text-align: center;
   position: relative;
 
+  min-width: 960px;
 }
 
 .banner_container {
   position: relative;
   margin: auto auto;
-  max-width: 960px;
+  min-width: 960px;
   height: 50%;
   top: 25%;
   bottom: 25%;
@@ -183,6 +187,8 @@
 
 .services {
   margin: 30px 0;
+
+  min-width: 960px;
   text-align: center;
   vertical-align: top;
 
@@ -223,6 +229,10 @@
   background-position: center;
   text-align: center;
 
+  padding-left: 20px;
+
+  min-width: 960px;
+
 }
 
 .middlesection_text_before {
@@ -232,7 +242,7 @@
 }
 
 .middlesection_text {
-  width: 960px;
+  min-width: 960px;
   display: inline-block;
   position: relative;
   bottom: 15%;
@@ -270,6 +280,10 @@
 
 .middlesection ul li:nth-of-type(2) {
   color: #2c5880;
+}
+
+.pricing {
+  min-width: 960px;
 }
 
 .pricing_body {
@@ -427,6 +441,8 @@
   padding: 30px 0;
   text-align: center;
 
+  min-width: 960px;
+
 }
 
 .testimonials_header {
@@ -446,7 +462,7 @@
   display: inline-block;
   text-align: left;
   margin: 15px 5% 0 5%;
-  max-width: 960px;
+  min-width: 960px;
 
 }
 
@@ -532,19 +548,16 @@
   padding: 15px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .footer_wrapper {
   background: #3070a8;
   text-align: center;
+
+  min-width: 960px;
 }
 
 .footer {
   display: inline-block;
-  max-width: 960px;
+  min-width: 960px;
   margin: 20px 0;
   color: white;
 }
@@ -577,12 +590,12 @@
 }
 
 .contacts_text_wrapper {
-  width: 960px;
+  min-width: 960px;
   display: inline-block;
   min-height: 345px;
   text-align: left;
   position: relative;
-  padding-left: 10px;
+  padding-left: 20px;
 
 }
 
@@ -616,8 +629,13 @@
 }
 
 .contacts_text a {
+  transition: text-shadow 0.5s ease;
   text-decoration: none;
   color: #8c8c8c;
+}
+
+.contacts_text a:hover {
+  text-shadow: 0 0 10px #4199ee;
 }
 
 .contacts_text span {
@@ -628,8 +646,32 @@
 
 }
 
-.contacts_social img {
+.contacts_location {
   position: relative;
+}
+
+.contacts_location img {
+  position: absolute;
+  left: -3px;
+}
+
+.contacts_phone {
+  position: relative;
+}
+
+.contacts_phone img {
+  position: absolute;
+  left: 2px;
+}
+
+.contacts_social img {
+  transition: transform 0.5s ease;
+
+  position: relative;
+}
+
+.contacts_social img:hover {
+  transform: scale(1.2);
 }
 
 .contacts_map {
