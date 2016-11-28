@@ -60,7 +60,7 @@
   display: inline-block;
   height: 21px;
   width: 21px;
-  background-image: url("images/socialSprite.png");
+  background-image: url("../images/socialSprite.png");
   margin-right: 4px;
 }
 
@@ -76,7 +76,7 @@
 
 .header_container_middle {
   background: #2980b9;
-  background-image: url('images/middleBack.jpg');
+  background-image: url('../images/middleBack.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -213,6 +213,10 @@
   text-transform: uppercase;
 }
 
+.js-carousel {
+  max-width: 780px;
+}
+
 .content_bottom p {
   font-size: 12px;
   margin-top: 55px;
@@ -221,32 +225,32 @@
 
 }
 
-.content_bottom p:nth-of-type(1):before {
+.testimonials-text:before {
   content: '';
   width: 29px;
   height: 15px;
   display: block;
-  background: url("images/quotesSprite.png");
+  background: url("../images/quotesSprite.png");
   background-repeat: no-repeat;
   position: absolute;
-  top: 88px;
+  top: 28px;
 }
 
-.content_bottom p:nth-of-type(2) {
+.content_bottom .testimonials-author {
   font-weight: bold;
   text-align: right;
   margin-top: 18px;
+  margin-bottom: 29px;
   text-transform: uppercase;
   position: relative;
-
 }
 
-.content_bottom p:nth-of-type(2):after {
+.testimonials-author:after {
   content: '';
   width: 29px;
   height: 15px;
   display: block;
-  background: url("images/quotesSprite.png");
+  background: url("../images/quotesSprite.png");
   background-position: -26px;
   background-repeat: no-repeat;
   position: absolute;
@@ -272,12 +276,14 @@
   font-size: 10px;
   display: table-cell;
   text-align: center;
-  background: url("images/arrowsSprite.png");
+  background: url("../images/arrowsSprite.png");
   background-repeat: no-repeat;
   background-position: 12px;
   position: absolute;
   top: 28px;
   right: 43px;
+
+  cursor: pointer;
 
 }
 
@@ -326,7 +332,7 @@
 
 .footer_top a:after {
   content: '';
-  background: url("images/buttonArrow.png");
+  background: url("../images/buttonArrow.png");
   height: 32px;
   width: 32px;
   position: absolute;
@@ -395,7 +401,7 @@
   display: inline-block;
   height: 21px;
   width: 21px;
-  background-image: url("images/socialSprite.png");
+  background-image: url("../images/socialSprite.png");
   margin-right: 8px;
 
 }
@@ -450,7 +456,7 @@
 
 .form:after {
   content: '';
-  background: url("images/selectArrow.png");
+  background: url("../images/selectArrow.png");
   position: absolute;
   right: 29px;
   top: 92px;
@@ -672,7 +678,7 @@
 
   .form:after {
     content: '';
-    background: url("images/selectArrow.png");
+    background: url("../images/selectArrow.png");
     position: absolute;
     right: 29px;
     top: 90px;
@@ -754,7 +760,6 @@
   .content_bottom label {
     top: 108px;
     left: 116px;
-
   }
 
   .content_bottom label:nth-of-type(2) {
@@ -763,7 +768,7 @@
 
   .content_bottom p:nth-of-type(1):before {
 
-    top: 170px;
+    top: 80px;
   }
 
   .content_bottom p:nth-of-type(2):after {
