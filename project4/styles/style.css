@@ -602,6 +602,10 @@
     line-height: 1.4;
   }
 
+  .slick-dots {
+    left: -130px;
+  }
+
 }
 
 @media screen and  (max-width: 799px) {
