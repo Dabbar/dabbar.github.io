@@ -9,7 +9,8 @@ body {
     display: flex;
     flex-direction: column;
 
-    height: 100vh;
+    height: fit-content;
+    min-height: 100vh;
 
     background: linear-gradient(to top, #000e35 0, #220e85 52%, #4801aa 100%);
 }
@@ -48,7 +49,7 @@ main {
 }
 
 .work_items a {
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
     text-decoration: none;
 
     color: #fff7f4;
@@ -67,12 +68,14 @@ img {
     height: 142px;
     margin-top: 20px;
 
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
 
     box-shadow: 3px 3px 5px #161f4e;
 }
 
 img:hover {
+    transform: scale(1.1);
+
     opacity: 0.6;
     box-shadow: none;
 }
